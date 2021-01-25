@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <form enctype="multipart/form-data" method="post">
+
+        <fieldset>
+            <legend>Основная информация:</legend>
+
+            <label for="name">Введите ФИО:</label>
+            <input name="name" id="name" type="text" placeholder="Иванов Иван Иванович" required><br>
+
+            <label for="password">Введите пароль:</label>
+            <input id="password" type="password"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Дополнительные параметры:</legend>
+
+            <label for="checkbox">Согласие на обратку персональных данных:</label>
+            <input id="checkbox" type="checkbox"><br>
+
+            <span>Укажите пол:</span><br>
+
+            <label for="male">Мужской</label>
+            <input name="gender" id="male" type="radio">
+            <label for="female">Женский</label>
+            <input name="gender" id="female" type="radio"><br>
+
+            <label for="email">Введите E-mail:</label>
+            <input id="email" type="email"><br>
+
+            <label for="city-input">Город проживания:</label>
+            <input id="city-input" list="city">
+            <datalist id="city">
+                <option>Москва</option>
+                <option>Саратов</option>
+                <option>Рязань</option>
+                <option>Белгород</option>
+            </datalist>
+
+        </fieldset>
+
+        <div class="range">
+            <input id="range" min="0" max="100" value="100" type="range">
+        </div>
+
+        <div id="area">
+            Переместите сюда фотографию
+        </div>
+
+        <input type="reset">
+        <input type="submit" value="Зарегистрироваться">
+        
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+</html>

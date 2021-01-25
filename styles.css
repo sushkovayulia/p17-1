@@ -1,0 +1,18 @@
+#area {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    max-width: 100%;
+    padding: 20px;
+}
+#area img {
+    max-width: 100%;
+}
+#range {
+    width: 100%;
+    justify-content: center;
+    display: none;
+    margin: 20px 0;
+}
