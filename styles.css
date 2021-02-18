@@ -5,7 +5,7 @@
     align-items: center;
     border: 1px solid black;
     max-width: 100%;
-    padding: 20px;
+    padding: 20px; 
 }
 #area img {
     max-width: 100%;
@@ -15,4 +15,15 @@
     justify-content: center;
     display: none;
     margin: 20px 0;
+}
+#p {
+    line-height: 2;
+   }
+#M {
+   color: blue; 
+  
+}
+#G {
+   color: Pink; 
+
 }
