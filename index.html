@@ -10,10 +10,10 @@
 
         <fieldset>
             <legend>Основная информация:</legend>
-
+   <div id="p">
             <label for="name"><i>Введите ФИО:</i></label>
-            <input name="name" id="name" type="text" placeholder="Иванов Иван Иванович" required><br>
-
+            <input name="name" id="name" type="text" size="35px"  placeholder="Полиграфов Полиграф Полиграфович " required><br>
+</div>
             <label for="password">Введите пароль:</label>
             <input id="password" type="password"><br>
         </fieldset>
@@ -25,23 +25,29 @@
             <input id="checkbox" type="checkbox"><br>
 
             <span>Укажите пол:</span><br>
-
+            <div id="M">
             <label for="male">Мужской</label>
             <input name="gender" id="male" type="radio">
+            </div>
+            <div id="G">
             <label for="female">Женский</label>
             <input name="gender" id="female" type="radio"><br>
-
+            </div>
+            <div id="p">
             <label for="email">Введите E-mail:</label>
             <input id="email" type="email"><br>
-
             <label for="city-input">Город проживания:</label>
             <input id="city-input" list="city">
+            </div>
             <datalist id="city">
                 <option>Москва</option>
                 <option>Саратов</option>
                 <option>Рязань</option>
                 <option>Белгород</option>
                 <option>Севастополь</option>
+                <option>Петербург</option>
+                <option>Мурманск</option>
+                <option>Воронеж</option>
             </datalist>
 
         </fieldset>
@@ -51,7 +57,7 @@
         </div>
 
         <div id="area">
-            Фото сюда
+            Переместите сюда фотографию
         </div>
 
         <input type="reset">
