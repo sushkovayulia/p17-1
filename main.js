@@ -1,3 +1,4 @@
+alert("Здравствуйте");
 let area = document.getElementById('area');
 let rangeInput = document.getElementById('range');
 
@@ -23,3 +24,4 @@ let dropHandler = (e) => {
 area.addEventListener('dragover', (e) => {e.preventDefault()});
 area.addEventListener('drop', dropHandler.bind(this));
 //area.addEventListener('drop', (e) => {dropHandler.bind(e)});
+© 2021 GitHub, Inc.
